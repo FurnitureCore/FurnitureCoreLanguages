@@ -1,0 +1,58 @@
+version: 1
+furniture-core-text:
+  fail-to-load-config: 'Failed to load configuration file: %s'
+  fail-to-load-language: 'Failed to load language file: %s, using default language.'
+  loading: FurnitureCore is loading...
+  loaded: FurnitureCore is loaded successfully!
+model-manager-text:
+  model-not-effect: Model %s is not effect, cannot be registered.
+resource-pack-manager-text:
+  fail-to-create-models-dir: Failed to create models directory.
+  fail-to-load-model: 'Failed to load model: %s'
+  reason: 'Reason: %s'
+  load-models-count: Loaded %d models.
+  list-failed-load-models: 'Failed to load %d models: %s'
+  fail-to-delete-cache-dir: 'Failed to delete cache directory: %s'
+  fail-to-move-pack-dir: Failed to move pack directory to cache directory.
+  fail-to-rename-pack-mcmeta: Failed to rename pack.mcmeta.json to pack.mcmeta.
+  fail-to-generate-model-file: 'Failed to generate model file %s: %s'
+  registered-recipes-count: Registered %d recipes.
+  resource-pack-models-count: Resource pack will generate with %s models.
+  fail-to-delete-existing-pack: Failed to delete existing resource pack zip file.
+  fail-to-generate-pack-zip: Failed to generate resource pack zip file.
+  pack-generate-success: Resource pack generated successfully.
+  resource-pack-size: 'Resource pack size: %s'
+  resource-pack-hash: 'Resource pack hash: %s'
+  fail-to-delete-pack-cache: Failed to delete cache/resource_pack directory.
+  pack-server-start-success: Resource pack is hosted at %s
+  pack-server-start-fail: 'Failed to start http server: %s'
+  pack-not-ready: Resource pack is not ready.
+  message-sent-to-client: This is a resource pack update from Server FurnitureCore.
+  file-not-found: 'File not found: %s'
+  not-file: 'Not a file: %s'
+furniture-model-text:
+  model-name-invalid: 'Model name contains invalid characters, must be [a-z0-9._-]: %s'
+  prefix-path-invalid: 'Prefix path contains invalid characters, must be [a-z0-9._-]: %s'
+  model-json-not-found: Model file model.json not found.
+  element-not-found: Elements not found in json model file.
+  texture-not-found: 'Texture file not found: %s'
+  fail-to-load-texture: 'Failed to create texture save path: %s'
+  fail-to-create-texture-path: 'Failed to create texture save path: %s'
+  fail-to-create-model-path: 'Failed to create model save path: %s'
+  fail-to-create-item-model-path: 'Failed to create item model save path: %s'
+  unknown-recipe-type: 'Unknown recipe type: %s'
+  fail-to-parse-recipe: 'Model %s recipe %d failed to parse: %s'
+  model-not-effect: Model not effective yet.
+parse-recipe-text:
+  shape-not-found: Shape not found in shaped recipe %d
+  shape-invalid: Shape should not have more than 3 rows in shaped recipe %d
+  row-not-available: Row %d not available in shaped recipe %d
+  row-invalid: Row %d should not have more than 3 characters in shaped recipe %d
+  ingredients-not-found: Ingredients not found in recipe %d
+  key-invalid: Key %s should have only 1 character in shaped recipe %d
+  key-not-found: Key %s not found in shape in shaped recipe %d
+  ingredient-not-available: Ingredient %s not available in recipe %d
+screwdriver-item-stack-text:
+  display-name: Screwdriver
+  desc1: Left click to break the furniture.
+  desc2: Right click to rotate the furniture.
