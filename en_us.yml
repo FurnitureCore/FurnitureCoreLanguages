@@ -1,4 +1,3 @@
-version: 1
 furniture-core-text:
   fail-to-load-config: 'Failed to load configuration file: %s'
   fail-to-load-language: 'Failed to load language file: %s, using default language.'
@@ -56,3 +55,18 @@ screwdriver-item-stack-text:
   display-name: Screwdriver
   desc1: Left click to break the furniture.
   desc2: Right click to rotate the furniture.
+command-parser-text:
+  must-be-player-with-at-s: You must be a player to use this command with @s.
+  must-br-player-with-at-p: You must be a player to use this command with @p.
+  player-not-found: Player %s not found.
+reload-command-text:
+  reloading-config: Reloading configuration file...
+  reload-config-success: Configuration file reloaded successfully!
+  reloading-resource: Reloading resource files...
+  reload-resource-success: Resource files reloaded successfully!
+give-command-text:
+  model-not-found: Model %s not found.
+  give-success: Successfully give %d %s to %s.
+apply-command-text:
+  apply-resource-pack: Applying resource pack to %s...
+  apply-resource-pack-success: Resource pack applied successfully to %s!

@@ -1,47 +1,46 @@
-version: 1
 furniture-core-text:
-  fail-to-load-config: '加载配置文件失败：%s'
-  fail-to-load-language: '加载语言文件失败：%s，使用默认语言。'
+  fail-to-load-config: 加载配置文件失败：%s
+  fail-to-load-language: 加载语言文件失败：%s，使用默认语言。
   loading: 正在加载 FurnitureCore ...
   loaded: 成功加载 FurnitureCore ！
 model-manager-text:
   model-not-effect: 模型 %s 尚未保存资源，注册失败。
 resource-pack-manager-text:
   fail-to-create-models-dir: 创建 models 文件夹失败。
-  fail-to-load-model: '读取模型失败：%s'
-  reason: '详细内容：%s'
+  fail-to-load-model: 读取模型失败：%s
+  reason: 详细内容：%s
   load-models-count: 成功读取了 %d 个家具模型和。
-  list-failed-load-models: '共计 %d 个家具模型读取失败：%s'
-  fail-to-delete-cache-dir: '删除缓存文件夹失败：%s'
+  list-failed-load-models: 共计 %d 个家具模型读取失败：%s
+  fail-to-delete-cache-dir: 删除缓存文件夹失败：%s
   fail-to-move-pack-dir: 初始化材质包资源失败。
   fail-to-rename-pack-mcmeta: 无法将 pack.mcmeta.json 重命名为 pack.mcmeta。
-  fail-to-generate-model-file: '生成模型资源文件失败 %s：%s'
+  fail-to-generate-model-file: 生成模型资源文件失败 %s：%s
   registered-recipes-count: 共计注册了 %d 个模型内置家具配方。
   resource-pack-models-count: 即将生成资源包，攻击 %s 个模型。
   fail-to-delete-existing-pack: 删除旧资源包文件失败。
   fail-to-generate-pack-zip: 生成资源包文件失败。
   pack-generate-success: 成功生成资源包文件。
-  resource-pack-size: '资源包大小：%s'
-  resource-pack-hash: '资源包哈希：%s'
+  resource-pack-size: 资源包大小：%s
+  resource-pack-hash: 资源包哈希：%s
   fail-to-delete-pack-cache: 删除资源包缓存 cache/resource_pack 失败。
   pack-server-start-success: 资源包托管地址：%s
-  pack-server-start-fail: '启动托管服务失败：%s'
+  pack-server-start-fail: 启动托管服务失败：%s
   pack-not-ready: 资源包未就绪。
   message-sent-to-client: 本服务器使用了 FurnitureCore 自定义家具，接受资源包以获得更好的体验。
-  file-not-found: '文件未找到：%s'
-  not-file: '不是文件：%s'
+  file-not-found: 文件未找到：%s
+  not-file: 不是文件：%s
 furniture-model-text:
-  model-name-invalid: '模型名称包含不支持的字符，允许的字符 [a-z0-9._-]：%s'
-  prefix-path-invalid: '模型分类路径包含不支持的字符，允许的字符 [a-z0-9._-]：%s'
+  model-name-invalid: 模型名称包含不支持的字符，允许的字符 [a-z0-9._-]：%s
+  prefix-path-invalid: 模型分类路径包含不支持的字符，允许的字符 [a-z0-9._-]：%s
   model-json-not-found: 找不到模型json文件 model.json。
   element-not-found: 无法在模型json文件中找到 elements 字段。
-  texture-not-found: '模型材质丢失：%s'
-  fail-to-load-texture: '读取模型材质失败：%s'
-  fail-to-create-texture-path: '创建材质生成路径失败：%s'
-  fail-to-create-model-path: '创建模型生成路径失败：%s'
-  fail-to-create-item-model-path: '创建 ItemModel 生成路径失败：%s'
-  unknown-recipe-type: '位置的配方类型：%s'
-  fail-to-parse-recipe: '模型 %s 配方 %d 读取失败：%s'
+  texture-not-found: 模型材质丢失：%s
+  fail-to-load-texture: 读取模型材质失败：%s
+  fail-to-create-texture-path: 创建材质生成路径失败：%s
+  fail-to-create-model-path: 创建模型生成路径失败：%s
+  fail-to-create-item-model-path: 创建 ItemModel 生成路径失败：%s
+  unknown-recipe-type: 位置的配方类型：%s
+  fail-to-parse-recipe: 模型 %s 配方 %d 读取失败：%s
   model-not-effect: 模型尚未生效。
 parse-recipe-text:
   shape-not-found: 有序配方 %d 缺少 shape 字段。
@@ -56,3 +55,18 @@ screwdriver-item-stack-text:
   display-name: 螺丝刀（改锥）
   desc1: 左键点击破坏家具。
   desc2: 右键点击旋转家具。
+command-parser-text:
+  must-be-player-with-at-s: 只有作为玩家执行时才能使用 @s 参数。
+  must-br-player-with-at-p: 只有作为玩家执行时才能使用 @p 参数。
+  player-not-found: 找不到玩家：%s
+reload-command-text:
+  reloading-config: 正在重新加载配置文件...
+  reload-config-success: 配置文件重新加载成功！
+  reloading-resource: 正在重新生成材质包...
+  reload-resource-success: 材质包重新生成成功！
+give-command-text:
+  model-not-found: 找不到家具模型：%s
+  give-success: 成功给予了 %d 个 %s 给 %s。
+apply-command-text:
+  apply-resource-pack: 正在将材质包发送给 %s...
+  apply-resource-pack-success: 成功将材质包发送到 %s！
