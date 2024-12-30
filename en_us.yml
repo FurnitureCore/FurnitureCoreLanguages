@@ -36,7 +36,7 @@ furniture-model-text:
   model-json-not-found: Model file model.json not found.
   element-not-found: Elements not found in json model file.
   texture-not-found: 'Texture file not found: %s'
-  fail-to-load-texture: 'Failed to create texture save path: %s'
+  fail-to-load-texture: 'Failed to load texture file: %s'
   fail-to-create-texture-path: 'Failed to create texture save path: %s'
   fail-to-create-model-path: 'Failed to create model save path: %s'
   fail-to-create-item-model-path: 'Failed to create item model save path: %s'
