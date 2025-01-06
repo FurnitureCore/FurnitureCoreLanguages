@@ -9,7 +9,7 @@ resource-pack-manager-text:
   fail-to-create-models-dir: 创建 models 文件夹失败。
   fail-to-load-model: 读取模型失败：%s
   reason: 详细内容：%s
-  load-models-count: 成功读取了 %d 个家具模型和。
+  load-models-count: 成功读取了 %d 个家具模型。
   list-failed-load-models: 共计 %d 个家具模型读取失败：%s
   fail-to-delete-cache-dir: 删除缓存文件夹失败：%s
   fail-to-move-pack-dir: 初始化材质包资源失败。
