@@ -16,7 +16,7 @@ resource-pack-manager-text:
   fail-to-rename-pack-mcmeta: 无法将 pack.mcmeta.json 重命名为 pack.mcmeta。
   fail-to-generate-model-file: 生成模型资源文件失败 %s：%s
   registered-recipes-count: 共计注册了 %d 个模型内置家具配方。
-  resource-pack-models-count: 即将生成资源包，攻击 %s 个模型。
+  resource-pack-models-count: 即将生成资源包，共计 %s 个模型。
   fail-to-delete-existing-pack: 删除旧资源包文件失败。
   fail-to-generate-pack-zip: 生成资源包文件失败。
   pack-generate-success: 成功生成资源包文件。
